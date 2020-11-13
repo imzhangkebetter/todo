@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block css %}
+    <style>
+        .el-main{
+            width: 35%;
+            margin:0 auto;
+            background-color: rgb(244, 244, 245);
+            padding: 30px;
+        }
+        p {
+            margin-top: 10px;
+            background-color: #ffffff;
+            padding: 10px;
+            height: 25px;
+            line-height: 25px;
+        }
+    </style>
+{% endblock %}
+{% block body %}
+{% for todo in zhuti %}
+    <p id="{{todo.id}}"><span>{{todo.name}}</span>&nbsp;&nbsp;&nbsp;<span><el-link href="/addx/{{todo.id}}"><i class="el-icon-circle-plus"></i></el-link></span></p>
+{% endfor %}
+</ul>
+<hr />
+<form method="post" action="addz" ref="myform" style="margin-top: 10px">
+  <el-input v-model="name" placeholder="请输入内容" name="name"></el-input>
+  <el-button type="submit" @click="onSubmit('myform')" style="margin-top: 10px" >添加主题</el-button>
+</form>
+ <el-button style="margin-top: 10px"><el-link href="/">主页</el-link></el-button>
+{% endblock %}
+
+{% block js %}
+<script>
+    new Vue({
+      el: '#main',
+        data:{
+          name:''
+        },
+        methods: {
+            onSubmit (formName) {
+               this.$refs[formName].submit();
+            }
+        }
+    })
+</script>
+{% endblock %}

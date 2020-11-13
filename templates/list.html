@@ -1,0 +1,52 @@
+{% extends  "base.html" %}
+{% block css %}
+    <style>
+        .el-main{
+            width: 30%;
+            margin:0 auto;
+            background-color: rgb(244, 244, 245);
+        }
+        p {
+            margin-top: 10px;
+            background-color: #ffffff;
+            padding: 15px;
+            line-height: 30px;
+        }
+    </style>
+{% endblock %}
+{% block body %}
+<h3>{{title[0].name}}</h3>
+    {% for todo in toupiao %}
+        <p>
+            <el-checkbox  v-model="checkedNames" ref="check"  label="{{todo.name}}"  @change="((e)=>{updatenum(e,{{todo.id}},{{todo.x_id}})})"></el-checkbox>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{todo.num}}票
+        </p>
+    {% endfor %}
+    <p>
+        <el-button><el-link href="/">主页</el-link></el-button>
+    </p>
+{% endblock %}
+<!-- import JavaScript -->
+{% block js %}
+<script>
+new Vue({
+  el: '#main',
+  data:{
+     checkedNames:[],
+  },
+  methods :{
+      updatenum: function(e,id,xid){
+          if(e==true){
+           axios.post('/list/'+xid,{id:id,xid:xid})
+            .then(function (response) {
+              location.reload();
+            })
+            .catch(function (error) {
+              console.log(error);
+            });
+          }
+      }
+  }
+});
+</script>
+{% endblock %}

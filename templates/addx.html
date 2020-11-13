@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block css %}
+    <style>
+        .el-main{
+            width: 50%;
+            margin:0 auto;
+            background-color: rgb(244, 244, 245);
+            padding: 30px;
+        }
+        p {
+            margin-top: 10px;
+            background-color: #ffffff;
+            padding: 10px;
+            height: 25px;
+            line-height: 25px;
+        }
+        p .el-link{
+            float: left;
+            font-size: 25px;
+            line-height: 25px;
+        }
+        .del {
+            cursor: pointer;
+            float: right;
+            line-height: 25px;
+        }
+    </style>
+{% endblock %}
+{% block body %}
+<el-form :model="myForm" ref="myForm" id="myform" label-width="100px" class="demo-dynamic"
+         method="post" action="/addx/$id" >
+    <el-form-item
+    v-for="(domain, index) in myForm.domains"
+    :inline-message="true"
+    :label="'选项' + (index+1)"
+    :prop="'domains.' + index + '.value'"
+    :rules="{
+      required: true, message: '不能为空', trigger: 'blur'
+    }"
+  >
+
+    <el-input v-model="domain.value" style="width: 50%"></el-input>
+    <el-button @click.prevent="removeDomain(domain)">删除</el-button>
+  </el-form-item>
+    <el-form-item>
+    <el-button type="primary" @click="submitForm('myForm')">提交</el-button>
+    <el-button @click="addDomain">新增选项</el-button>
+    <el-button @click="resetForm('myForm')">重置</el-button>
+  </el-form-item>
+</el-form>
+</div>
+{% endblock %}
+{% block js %}
+    <script>
+new Vue({
+  el: '#main',
+  data() {
+    return {
+      myForm: {
+        domains: [{
+          value: ''
+        }]
+      }
+    };
+  },
+  methods :{
+     submitForm(formName) {
+       this.$refs[formName].validate((valid) => {
+          if (valid) {
+            axios.post('/addx/{{id}}',{data:this.myForm.domains})
+            .then(function (response) {
+              location.href = '/addz'
+            })
+            .catch(function (error) {
+              console.log(error);
+            });
+          } else {
+            return false;
+          }
+        });
+     },
+     removeDomain(item) {
+        var index = this.myForm.domains.indexOf(item)
+        if (index !== -1) {
+          this.myForm.domains.splice(index, 1);
+        }
+     },
+     addDomain() {
+       this.myForm.domains.push({
+         value: '',
+         key: Date.now()
+       });
+     },
+    resetForm(formName) {
+       this.$refs[formName].resetFields();
+    }
+  }
+});
+</script>
+{% endblock %}

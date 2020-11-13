@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block css %}
+    <style>
+        .el-main{
+            width: 35%;
+            margin:0 auto;
+            background-color: rgb(244, 244, 245);
+            padding: 30px;
+        }
+        p {
+            margin-top: 10px;
+            background-color: #ffffff;
+            padding: 10px;
+            height: 25px;
+            line-height: 25px;
+        }
+        p .el-link{
+            float: left;
+            font-size: 25px;
+            line-height: 25px;
+        }
+        .del {
+            cursor: pointer;
+            float: right;
+            line-height: 25px;
+        }
+    </style>
+{% endblock %}
+{% block body %}
+     {% for t in zhuti %}
+            <p>
+                <el-link  href="/list/{{t.id}}">{{ t.name }}</el-link>
+                <span class="del">
+                    <i @click="deleteNum({{ t.id }})" class="el-icon-delete">&nbsp;</i>
+                </span>
+            </p>
+     {% endfor %}
+     <el-button style="margin-top: 10px"><el-link href="/addz">添加投票</el-link></el-button>
+{% endblock %}
+{% block js %}
+<script>
+    new Vue({
+      el: '#main',
+       methods: {
+        deleteNum (id) {
+          axios.post('/delete/'+id,{})
+            .then(function (response) {
+              location.reload();
+            })
+            .catch(function (error) {
+              console.log(error);
+            });
+        }
+      }
+    })
+</script>
+{% endblock %}
+

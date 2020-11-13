@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>投票系统</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <link rel="stylesheet" href="../static/css/index.css">
+     <style>
+        *{
+            font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        el-container{
+            margin: 30px;
+        }
+         el-header p{
+             background-color: azure;
+             width: 100%;
+         }
+         el-main {
+            background-color: #E9EEF3;
+            color: #333;
+            text-align: center;
+            line-height: 30px;
+         }
+    </style>
+    {% block css %}
+
+    {% endblock %}
+</head>
+<body>
+<el-container id="main">
+    <el-header><h1 style="margin-top: 10px"><i style="font-size: 40px" class="el-icon-s-claim"></i></h1></el-header>
+  <el-main>
+        {% block body %}
+
+        {% endblock %}
+  </el-main>
+</el-container>
+<script src="../static/js/vue.js"></script>
+<script src="../static/js/index.js"></script>
+<script src="../static/js/axios.min.js"></script>
+    {% block js %}
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e52e2360-df77-4fcd-8542-d15cf1580580" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="todo: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="webpystudy" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1Uv2qRszfg7GfV6FIrZ9NrcTEW9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\py_work\webpystudy\static\css" />
+      <recent name="D:\py_work\webpystudy\static\js" />
+      <recent name="D:\py_work\webpystudy\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.todo">
+    <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="webpystudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\py_work\webpystudy\todo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="webpystudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="todo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="webpystudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/todo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.todo" />
+        <item itemvalue="Python.code" />
+        <item itemvalue="Python.demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e52e2360-df77-4fcd-8542-d15cf1580580" name="Default Changelist" comment="" />
+      <created>1576222938407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576222938407</updated>
+      <workItem from="1576222940454" duration="10485000" />
+      <workItem from="1577118272767" duration="47000" />
+      <workItem from="1577118362575" duration="2925000" />
+      <workItem from="1577717525816" duration="1917000" />
+      <workItem from="1578151414709" duration="636000" />
+      <workItem from="1578496165435" duration="2385000" />
+      <workItem from="1578506774872" duration="1769000" />
+      <workItem from="1578539769936" duration="621000" />
+      <workItem from="1578578560148" duration="7048000" />
+      <workItem from="1578660121676" duration="6296000" />
+      <workItem from="1578912729477" duration="128000" />
+      <workItem from="1578991603557" duration="15186000" />
+      <workItem from="1579070996559" duration="10548000" />
+      <workItem from="1579184505507" duration="5907000" />
+      <workItem from="1579238977659" duration="2049000" />
+      <workItem from="1579273782474" duration="9053000" />
+      <workItem from="1579320406977" duration="6008000" />
+      <workItem from="1579414354454" duration="6956000" />
+      <workItem from="1579491022511" duration="1266000" />
+      <workItem from="1579531529329" duration="1375000" />
+      <workItem from="1579584187528" duration="2916000" />
+      <workItem from="1579702830834" duration="43000" />
+      <workItem from="1579702906848" duration="4317000" />
+      <workItem from="1579782449488" duration="8141000" />
+      <workItem from="1580142081606" duration="1271000" />
+      <workItem from="1580391903248" duration="25000" />
+      <workItem from="1580551393083" duration="9337000" />
+      <workItem from="1580652173322" duration="2324000" />
+      <workItem from="1580830963684" duration="1184000" />
+      <workItem from="1580910654024" duration="10519000" />
+      <workItem from="1580975471355" duration="3323000" />
+      <workItem from="1580999498287" duration="44000" />
+      <workItem from="1580999571164" duration="106000" />
+      <workItem from="1581350475906" duration="1165000" />
+      <workItem from="1581603258423" duration="1764000" />
+      <workItem from="1581686525527" duration="1371000" />
+      <workItem from="1581687995226" duration="55000" />
+      <workItem from="1581743411170" duration="3599000" />
+      <workItem from="1581775930263" duration="198000" />
+      <workItem from="1581792292649" duration="8000" />
+      <workItem from="1582021900296" duration="408000" />
+      <workItem from="1605254441124" duration="2576000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605255976947">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.800/0.0.1280.680@0.0.1280.680" timestamp="1605255976947" />
+    <state x="246" y="100" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1605255914698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="246" y="100" key="DUMP_DIALOG_DIMENSION_KEY/-1920.0.1536.800/0.0.1280.680@0.0.1280.680" timestamp="1605255914698" />
+    <state x="372" y="39" key="FileChooserDialogImpl" timestamp="1605256326731">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="372" y="39" key="FileChooserDialogImpl/-1920.0.1536.800/0.0.1280.680@0.0.1280.680" timestamp="1605256326731" />
+    <state width="1222" height="111" key="GridCell.Tab.0.bottom" timestamp="1605257021720">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1222" height="111" key="GridCell.Tab.0.bottom/-1920.0.1536.800/0.0.1280.680@0.0.1280.680" timestamp="1605257021720" />
+    <state width="1222" height="111" key="GridCell.Tab.0.center" timestamp="1605257021720">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1222" height="111" key="GridCell.Tab.0.center/-1920.0.1536.800/0.0.1280.680@0.0.1280.680" timestamp="1605257021720" />
+    <state width="1222" height="111" key="GridCell.Tab.0.left" timestamp="1605257021720">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1222" height="111" key="GridCell.Tab.0.left/-1920.0.1536.800/0.0.1280.680@0.0.1280.680" timestamp="1605257021720" />
+    <state width="1222" height="111" key="GridCell.Tab.0.right" timestamp="1605257021720">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1222" height="111" key="GridCell.Tab.0.right/-1920.0.1536.800/0.0.1280.680@0.0.1280.680" timestamp="1605257021720" />
+    <state width="383" height="593" key="HiddenNamespacesPopup" timestamp="1605255987125">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="383" height="593" key="HiddenNamespacesPopup/-1920.0.1536.800/0.0.1280.680@0.0.1280.680" timestamp="1605255987125" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="toupiao.cursor" />
+        <watch expression="toupiao" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/webpystudy$code.coverage" NAME="code Coverage Results" MODIFIED="1578589659361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webpystudy$demo.coverage" NAME="demo Coverage Results" MODIFIED="1578578955678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webpystudy$todo.coverage" NAME="todo Coverage Results" MODIFIED="1605257021715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
